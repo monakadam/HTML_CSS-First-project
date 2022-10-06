@@ -1,0 +1,94 @@
+.hero{
+    height: 400px;
+    border: 1px solid black;
+    background: url(/Quizz_website/assets/bg.jpg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 3rem;
+    border-radius: 10px 20px;
+    
+}
+.hero-text{
+    font-size: 1.7rem;
+    opacity: 1;
+    color: black;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #120e11 ;
+    padding-left: 10px;
+    
+}
+.hero-text p:first-child{
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #f8f4f4 ;
+    padding-left: 20px;
+
+}
+.hero > img{
+    height: 20vh;
+
+}
+.categories-container{
+ margin: 1rem 15px;
+}
+.section-title{
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    font-size: larger;
+    font-weight: lighter;
+    text-shadow: .5px .5px 0.5px #000000 ;
+    text-decoration: double;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-subtitle{
+    margin: 0;
+    margin-top: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}  
+.categories{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1rem;
+}
+.category{
+    height: 200px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-size: contain;
+    position: relative;
+    color: white;
+    
+}
+.category > p{
+    z-index: 100;
+}
+.backdrop{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    border-radius: 8px;
+    opacity: .2;
+    transition: all 0.7s ease-in-out;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.backdrop:hover{
+    opacity: .8;
+}
+.categories a:nth-child(1) .category { background-image: url('./../assets/technology.jpg'); background-repeat: repeat-y;}
+.categories a:nth-child(2) .category { background-image: url('./../assets/capital.jpg');background-repeat: repeat-y;}
+.categories a:nth-child(3) .category { background-image: url('./../assets/footballl.jpg');background-repeat: repeat-y;margin-right: 1.5rem;}
+.categories a:nth-child(4) .category { background-image: url('./../assets/gk.jpg');background-repeat: repeat-y; margin-right: 0.7rem;}
+
+a{
+    text-decoration: none;
+    
+}

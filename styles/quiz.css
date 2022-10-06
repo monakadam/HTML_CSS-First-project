@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background: linear-gradient(115deg, rgba(101,151,209,0.8), rgba(202,102,211,0.5));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 2000px;
+    width: 1000px;
+
+}
+.navbar-1 > a{
+  margin-top: 1rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  font-weight: bolder;
+  color: #000081;
+  text-decoration: none;
+}
+.content{
+    margin-top: 1rem;
+}
+.logo-1 > img {
+  height: 30px;
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+.logo-1 > h3{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+#title{
+    margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+    margin: 1rem;
+    width: 95vw;
+    padding: 2rem;
+    background: rgba(0,255,221,0.45);
+    cursor: default;
+    border-radius: 1rem;
+}
+.questions > li:first-child{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: lightblue;
+    border-radius: 1rem;
+}
+.option:hover{
+    background-color: palevioletred;
+    color: white;
+}
+ol{
+    position: relative;
+    padding: 0.1rem 0.7rem;
+    color: rgb(1, 73, 73);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#ques1{
+    margin-top: 1.5rem;
+    color: #1d1df5;
+    text-align: right;
+}
+#btn{
+    display: grid;
+    height: 40px;
+    width: 80px;
+    background: linear-gradient(#2ae0bf,#ce16ee);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 120rem;
+    bottom: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    color: black
+}
+#btn2{
+    display: grid;
+    height: 40px;
+    width: 80px;
+    background: linear-gradient(#2ae0bf,#ce16ee);
+    position: absolute;
+    margin: auto;
+    left: 1rem;
+    right: 15rem;
+    top: 120rem;
+    bottom: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    color: white
+}
+#btn:hover{
+    background-color: aqua;
+    color: aliceblue;
+}
+
+
